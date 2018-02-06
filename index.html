@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang=“en”>
+<head>
+	<title>My first webpage</title>
+</head>
+
+<body>
+	<h1>You can click the button</h1>
+	<h2>by Wendy Wu</h2>
+	<p>This is my first web client-side code in HTML and Javascript</p>
+	
+</body>
+
+<script>
+
+function chat(){
+	
+	return;
+}	
+
+function greeting(ending){
+	var number = 24;
+	window.alert("I am Wendy!");
+	document.write("my favorite number is " + number);
+	ending();
+}
+
+function ending(){
+	document.write("\n       Good to see you!");
+	//window.alert("Hello")
+}
+</script>
+
+<button onclick="greeting(ending)">
+	greet
+</button>
+
+</html>
